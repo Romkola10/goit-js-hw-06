@@ -16,6 +16,6 @@ function formSubmit(event) {
     else if(password === '') {
         return alert("Введіть пароль!")
     }
-    console.log('email:', mail, 'password:', password)
+    console.log({ mail, password })
     event.currentTarget.reset();
 }
